@@ -8,7 +8,7 @@
 class SimpleExecutor : BaseExecutor
 {
 public:
-    explicit SimpleExecutor(std::string content)
+    SimpleExecutor(std::string content)
         : BaseExecutor(content) {};
     bool execute();
 };

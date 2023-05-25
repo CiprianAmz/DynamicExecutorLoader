@@ -8,7 +8,7 @@ class BaseExecutor
 protected:
     std::string _content;
 public:
-    explicit BaseExecutor(std::string content)
+    BaseExecutor(std::string content)
         : _content(content) {};
     virtual bool execute() = 0;
 };
